@@ -1,0 +1,151 @@
+.n8n-chat {
+  /*!
+    Theme: GitHub
+    Description: Light theme as seen on github.com
+    Author: github.com
+    Maintainer: @Hirse
+    Updated: 2021-05-15
+
+    Outdated base version: https://github.com/primer/github-syntax-light
+    Current colors taken from GitHub's CSS
+  */
+}
+.n8n-chat pre code.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1em;
+}
+.n8n-chat code.hljs {
+  padding: 3px 5px;
+}
+.n8n-chat .hljs {
+  color: #24292e;
+  background: #ffffff;
+}
+.n8n-chat .hljs-doctag,
+.n8n-chat .hljs-keyword,
+.n8n-chat .hljs-meta .hljs-keyword,
+.n8n-chat .hljs-template-tag,
+.n8n-chat .hljs-template-variable,
+.n8n-chat .hljs-type,
+.n8n-chat .hljs-variable.language_ {
+  /* prettylights-syntax-keyword */
+  color: #8E75FA;
+}
+.n8n-chat .hljs-title,
+.n8n-chat .hljs-title.class_,
+.n8n-chat .hljs-title.class_.inherited__,
+.n8n-chat .hljs-title.function_ {
+  /* prettylights-syntax-entity */
+  color: #6f42c1;
+}
+.n8n-chat .hljs-attr,
+.n8n-chat .hljs-attribute,
+.n8n-chat .hljs-literal,
+.n8n-chat .hljs-meta,
+.n8n-chat .hljs-number,
+.n8n-chat .hljs-operator,
+.n8n-chat .hljs-variable,
+.n8n-chat .hljs-selector-attr,
+.n8n-chat .hljs-selector-class,
+.n8n-chat .hljs-selector-id {
+  /* prettylights-syntax-constant */
+  color: #005cc5;
+}
+.n8n-chat .hljs-regexp,
+.n8n-chat .hljs-string,
+.n8n-chat .hljs-meta .hljs-string {
+  /* prettylights-syntax-string */
+  color: #8E75FA;
+}
+.n8n-chat .hljs-built_in,
+.n8n-chat .hljs-symbol {
+  /* prettylights-syntax-variable */
+  color: #e36209;
+}
+.n8n-chat .hljs-comment,
+.n8n-chat .hljs-code,
+.n8n-chat .hljs-formula {
+  /* prettylights-syntax-comment */
+  color: #6a737d;
+}
+.n8n-chat .hljs-name,
+.n8n-chat .hljs-quote,
+.n8n-chat .hljs-selector-tag,
+.n8n-chat .hljs-selector-pseudo {
+  /* prettylights-syntax-entity-tag */
+  color: #22863a;
+}
+.n8n-chat .hljs-subst {
+  /* prettylights-syntax-storage-modifier-import */
+  color: #24292e;
+}
+.n8n-chat .hljs-section {
+  /* prettylights-syntax-markup-heading */
+  color: #005cc5;
+  font-weight: bold;
+}
+.n8n-chat .hljs-bullet {
+  /* prettylights-syntax-markup-list */
+  color: #735c0f;
+}
+.n8n-chat .hljs-emphasis {
+  /* prettylights-syntax-markup-italic */
+  color: #24292e;
+  font-style: italic;
+}
+.n8n-chat .hljs-strong {
+  /* prettylights-syntax-markup-bold */
+  color: #24292e;
+  font-weight: bold;
+}
+.n8n-chat .hljs-addition {
+  /* prettylights-syntax-markup-inserted */
+  color: #22863a;
+  background-color: #f0fff4;
+}
+.n8n-chat .hljs-deletion {
+  /* prettylights-syntax-markup-deleted */
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+.n8n-chat .hljs-char.escape_,
+.n8n-chat .hljs-link,
+.n8n-chat .hljs-params,
+.n8n-chat .hljs-property,
+.n8n-chat .hljs-punctuation,
+.n8n-chat .hljs-tag {
+  /* purposely ignored */
+}
+
+:root {
+  --chat--color-primary: #8E75FA;
+  --chat--color-primary-shade-50: #5e4ea5;
+  --chat--color-primary-shade-100: #5b3edd;
+  --chat--color-secondary: #20b69e;
+  --chat--color-secondary-shade-50: #1ca08a;
+  --chat--color-white: #ffffff;
+  --chat--color-light: #f2f4f8;
+  --chat--color-light-shade-50: #e6e9f1;
+  --chat--color-light-shade-100: #c2c5cc;
+  --chat--color-medium: #d2d4d9;
+  --chat--color-dark: #8E75FA;
+  --chat--color-disabled: #777980;
+  --chat--color-typing: #404040;
+  --chat--spacing: 1rem;
+  --chat--border-radius: 0.25rem;
+  --chat--transition-duration: 0.15s;
+  --chat--window--width: 400px;
+  --chat--window--height: 600px;
+  --chat--textarea--height: 50px;
+  --chat--message--bot--background: var(--chat--color-white);
+  --chat--message--bot--color: var(--chat--color-dark);
+  --chat--message--user--background: var(--chat--color-secondary);
+  --chat--message--user--color: var(--chat--color-white);
+  --chat--message--pre--background: rgba(0, 0, 0, 0.05);
+  --chat--toggle--background: var(--chat--color-primary);
+  --chat--toggle--hover--background: var(--chat--color-primary-shade-50);
+  --chat--toggle--active--background: var(--chat--color-primary-shade-100);
+  --chat--toggle--color: var(--chat--color-white);
+  --chat--toggle--size: 64px;
+}
